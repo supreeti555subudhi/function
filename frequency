@@ -1,0 +1,14 @@
+def frequency(string):
+    d=dict()
+    for i in string:
+        d[i] = d.get(i, 0) + 1
+        return d
+        def order(string):
+        string="mississippi"
+        f= frequency(string)
+        for letter in string:
+        if letter not in string_dict:
+        string_dict[letter] = string.count(letter)
+        answer = sorted(string_dict.items(), key=operator.itemgetter(1), reverse=True)
+        print(answer)
+    
